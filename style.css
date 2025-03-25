@@ -653,3 +653,234 @@ footer {
   display: flex;
   gap: 1rem;
 }
+
+
+
+@media (max-width: 1200px) {
+  .heroSection {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  
+  .projectCard {
+    width: 90%;
+  }
+}
+
+/* Tablet Styles (768px and below) */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    padding: 10px 20px;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  nav ul {
+    margin-right: 0;
+    padding: 0;
+    gap: 1.5rem;
+  }
+  
+  /* Hero Section */
+  .heroSection {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+  }
+  
+  .infoContainer {
+    align-items: center;
+  }
+  
+  .desc {
+    width: 100%;
+  }
+  
+  .fadedText {
+    font-size: 4em;
+    bottom: -10%;
+  }
+  
+  .userImage {
+    width: 280px;
+    height: 320px;
+  }
+  
+  /* Projects */
+  .projectTitle {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  
+  .projectCard {
+    height: 450px;
+  }
+  
+  .projectContent {
+    bottom: 10%;
+  }
+  
+  .projectHeading {
+    font-size: 40px;
+  }
+  
+  .projectSubHeading {
+    width: 100%;
+  }
+  
+  /* Skills */
+  .skillContainer {
+    flex-direction: column;
+    padding: 3rem;
+    margin: 5rem auto;
+  }
+  
+  .leftSkillContainer, .rightSkillContainer {
+    width: 100%;
+  }
+  
+  .skillSubHeading {
+    width: 100%;
+  }
+  
+  /* Contact */
+  .container h2 {
+    font-size: 3em;
+  }
+  
+  .container h3 {
+    font-size: 2em;
+  }
+}
+
+/* Mobile Styles (480px and below) */
+@media (max-width: 480px) {
+  /* Header */
+  .logoText {
+    font-size: 22px;
+  }
+  
+  nav ul {
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+  }
+  
+  /* Hero Section */
+  .heading {
+    font-size: 28px;
+  }
+  
+  .subHeading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  
+  .fadedText {
+    font-size: 3em;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.8rem;
+    font-size: 16px;
+  }
+  
+  .userImage {
+    width: 240px;
+    height: 280px;
+  }
+  
+  /* Projects */
+  .projectTitle {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 30px 0 20px;
+  }
+  
+  .projectContainer {
+    gap: 80px;
+  }
+  
+  .projectCard {
+    height: 400px;
+  }
+  
+  .projectHeading {
+    font-size: 30px;
+    line-height: 2rem;
+  }
+  
+  .projectSkillsContainer {
+    max-width: 100%;
+  }
+  
+  /* Skills */
+  .skillHeading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  .skillHeading span {
+    font-size: 70px;
+  }
+  
+  .skillsLogo {
+    width: 60px;
+  }
+  
+  /* Contact */
+  .container h2 {
+    font-size: 2.5em;
+  }
+  
+  .container h3 {
+    font-size: 1.5em;
+  }
+  
+  .formField {
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 3rem 1rem;
+  }
+  
+  .footerContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .linkContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .footerFadedText {
+    font-size: 3em;
+  }
+}
+
+/* Additional Mobile Fixes */
+@media (max-width: 380px) {
+  .projectCard {
+    height: 350px;
+  }
+  
+  .projectContent {
+    padding: 1em;
+  }
+  
+  .rightSkillContainer {
+    gap: 1rem;
+  }
+  
+  .skillsLogo {
+    width: 50px;
+  }
+}
